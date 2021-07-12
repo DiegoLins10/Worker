@@ -14,7 +14,7 @@ namespace Worker.Entities
         }
         public Department(string name)
         {
-            Name = name;
+            this.Name = name;
         }
     }
 }
