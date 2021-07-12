@@ -10,7 +10,7 @@ namespace Worker.Entities
         public WorkerLevel Level { get; set; } // usando enumeracao
         public double BaseSalary { get; set; }
         public Department Departament { get; set; } // composicao de classes
-        public List<HourContract> Contracts { get; set; } = new List<HourContract>(); // instanciando a lista
+        public List<HourContract> ContractsList { get; set; } = new List<HourContract>(); // instanciando a lista
 
         public Worker()
         {
@@ -26,18 +26,18 @@ namespace Worker.Entities
 
         public void AddContract(HourContract contract)
         {
-            this.Contracts.Add(contract); // adicionando contrato a lista
+            this.ContractsList.Add(contract); // adicionando contrato a lista
         }
 
         public void RemoveContract(HourContract contract)
         {
-            this.Contracts.Remove(contract); // removendo contrato
+            this.ContractsList.Remove(contract); // removendo contrato
         }
 
         public double Income(int year, int month) // somando o total do salario nesse mes
         {
             double sum = BaseSalary;
-            foreach(HourContract contract in Contracts) //invoca a classe contrato e percorre a lista Contracts
+            foreach(HourContract contract in ContractsList) //invoca a classe contrato e percorre a lista Contracts
             {
                 if(contract.Date.Year == year && contract.Date.Month == month)
                 {
