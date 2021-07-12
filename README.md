@@ -3,3 +3,7 @@ Sistema com a linguagem C# utilizando a metodologia de desenvolvimento programa√
 
 ## Diagrama de Classes do sistema
 ![](https://github.com/DiegoLins10/Worker/blob/master/UML.png)
+
+## Exemplo dos objetos na memoria
+![](https://github.com/DiegoLins10/Worker/blob/master/UML.png)
+![](https://github.com/DiegoLins10/Worker/blob/master/UML.png)
