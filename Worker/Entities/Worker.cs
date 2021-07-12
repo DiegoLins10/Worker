@@ -6,7 +6,7 @@ namespace Worker.Entities
 {
     class Worker
     {
-        public string Nome { get; set; }
+        public string Name { get; set; }
         public WorkerLevel Level { get; set; } // usando enumeracao
         public double BaseSalary { get; set; }
         public Department Departament { get; set; } // composicao de classes
@@ -16,9 +16,9 @@ namespace Worker.Entities
         {
         }
 
-        public Worker(string nome, WorkerLevel level, double baseSalary, Department departament)
+        public Worker(string name, WorkerLevel level, double baseSalary, Department departament)
         {
-            Nome = nome;
+            Name = name;
             Level = level;
             BaseSalary = baseSalary;
             Departament = departament;
