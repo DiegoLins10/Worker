@@ -5,5 +5,5 @@ Sistema com a linguagem C# utilizando a metodologia de desenvolvimento programa√
 ![](https://github.com/DiegoLins10/Worker/blob/master/UML.png)
 
 ## Exemplo dos objetos na memoria :snowflake:
-![](https://github.com/DiegoLins10/Worker/blob/master/uml1.png)
+![](https://github.com/DiegoLins10/Worker/blob/master/uml3.png)
 ![](https://github.com/DiegoLins10/Worker/blob/master/uml2.png)
