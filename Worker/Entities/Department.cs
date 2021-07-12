@@ -6,7 +6,7 @@ namespace Worker.Entities
 {
     class Department
     {
-        public string Name { get; set; }
+        public string NameDepartment { get; set; }
 
 
         public Department()
@@ -14,7 +14,7 @@ namespace Worker.Entities
         }
         public Department(string name)
         {
-            this.Name = name;
+            this.NameDepartment = name;
         }
     }
 }
